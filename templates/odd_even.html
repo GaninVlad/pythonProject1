@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h1>Миссия колонизации Марса</h1>
+        <h4>И на Марсе будут яблони цвести!</h4>
+     {% if 'инженер' in title or 'строитель' in title %}
+        <div>
+            <h2>Инженерные тренажеры</h2>
+            <img src="{{url_for('static', filename='img/ingener.png')}}"
+            alt="здесь должна была быть картинка, но не нашлась"></div>
+     {% else %}
+       <div>
+           <h2>Ваша профессия {{title}}</h2>
+           <img src="{{url_for('static', filename='img/MARS.png')}}"
+           alt="здесь должна была быть картинка, но не нашлась"></div>
+     {% endif %}
+    </body>
+</html>

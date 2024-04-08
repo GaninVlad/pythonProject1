@@ -1,0 +1,11 @@
+{
+    "server": "127.0.0.1",
+    "port": 8080,
+    "from_gold": ["leaves",
+        "shard",
+        "clay",
+        "stone",
+        "shell",
+        "acorn",
+        "glass"]
+}
