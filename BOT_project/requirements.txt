@@ -1,0 +1,8 @@
+requests~=2.31.0
+aiogram~=3.4.1
+python-dotenv~=1.0.0
+werkzeug~=3.0.1
+PyQt5~=5.15.9
+wheel~=0.38.4
+future~=0.18.3
+setuptools~=65.5.1
